@@ -1,0 +1,40 @@
+# Bancos e dados operacionais (inclusive dados fictícios de teste locais)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+Backups/
+Status_Programa/
+controle_folgas_config.json
+codigo_recuperacao_controle_folgas.txt
+codigo_recuperacao*.txt
+
+# Chaves privadas, segredos e configuração local
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!*.env.example
+
+# Python e ferramentas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+
+# Distribuição
+build/
+dist/
+*.exe
+*.bak
+*.tmp
+*.log
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,9 @@
+# Controle de Folgas e Banco de Horas - v4.1.0
+# Dependências Python do projeto
+
+customtkinter>=5.2.2,<6
+Pillow>=10,<13
+openpyxl>=3.1,<4
+pywin32>=306
+cryptography>=44,<48
+pyinstaller==6.22.3
